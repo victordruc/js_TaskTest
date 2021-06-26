@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,cAAc,AAAC,CACX,MAAM,CAAE,GAAG,CAAC,KAAK,CAAC,iBAAgB,CACrC,ACFD,AAAA,SAAS,AAAC,CACN,KAAK,CAAE,OAAO,CACd,MAAM,CAAE,iBAAiB,CACzB,OAAO,CAAE,YAAY,CACrB,WAAW,CAAE,GAAG,CAChB,WAAW,CAAE,GAAG,CAChB,UAAU,CAAE,MAAM,CAClB,eAAe,CAAE,IAAI,CACrB,cAAc,CAAE,MAAM,CACtB,WAAW,CAAE,IAAI,CACjB,OAAO,CAAE,cAAc,CACvB,SAAS,CAAE,IAAI,CACf,aAAa,CAAE,MAAM,CACrB,OAAO,CAAE,IAAI,CACb,WAAW,CAAE,MAAM,CACtB,AAED,AAAA,MAAM,AAAC,CACH,OAAO,CAAE,MAAM,CAAA,UAAU,CACzB,WAAW,CAAE,MAAM,CACtB",
+    "sources": [
+        "../../scss/style.scss",
+        "../../scss/_mainFormular.scss",
+        "../../scss/_infoTask.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
