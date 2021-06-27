@@ -38,6 +38,10 @@ let tasks = [{
         id: 4
     },
 ]
+// --> input the tasks
+// saveTasks(tasks) 
+checkLocalStorageName()
+loadTasks()
 
 let original = [...tasks]
 
@@ -60,6 +64,7 @@ const taskManager = (state, action) => {
                 if (e.id == action.id) {
                     state[i].status = true
                 }
+                tasks = [...state]
             });
             break
         case SEARCHTASK:
