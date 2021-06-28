@@ -68,7 +68,7 @@ const taskManager = (state, action) => {
             });
             break
         case SEARCHTASK:
-            tasks = original.filter(e => e.description.trim().toLowerCase().includes(action.value.trim().toLowerCase()));
+            tasks = original.filter(e => e.description.trim().toLowerCase().includes(action.value.trim().toLowerCase()) || e.name.trim().toLowerCase().includes(action.value.trim().toLowerCase()));
             break
         case FILTERTASK:
             switch (action.value) {
